@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+   
+}
+
+body {
+
+    background-color: rgb(40, 40, 40);
+    color: #fedc00;
+}
+
+#envoltorio header{
+
+    width: 100%;
+    height: 125px;
+    display: flex;
+    background-color: rgb(70, 70, 70);
+    justify-content: space-between;
+}
+
+#envoltorio header img {
+
+    width: 15%;
+}
+
+#envoltorio header h1{
+
+    padding-top: 1%;
+    font-family: 'Courier New';
+    font-size: 30pt;
+    
+}
+
+#envoltorio #contenido {
+
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+#envoltorio #contenido aside{
+
+   flex: 0 0 20%;
+}
+
+#envoltorio #contenido aside #publi {
+
+    border: 1px solid #fedc00;
+    text-align: center;
+
+    width: 90%;
+    height: 300px;
+    padding-top: 5%;
+    margin: 10px;
+    font-size: 20pt;
+    font-family: 'Courier New';
+
+}
+
+
+#envoltorio #contenido aside video{
+
+    width: 80%;
+}
+
+#envoltorio #contenido main {
+
+    flex: 0 0 80%;
+    padding-left: 25%;
+}
+#envolotorio #contenido main img {
+
+    width: 100%;
+}
+
+#envoltorio footer {
+
+    background-color: rgb(70, 70, 70);
+    width: 100%;
+    height: 130px;
+    font-size: 20pt;
+    font-family: 'Courier New';
+    padding-top: 0.1%;
+    text-align: center;
+}
+
