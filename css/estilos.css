@@ -53,13 +53,20 @@ nav li a{
 
 
 #contenido aside #publi{
-	border: 1px solid #FEDC00;
-	text-align: center;	
+	border: 1px solid #fedc00;
+    text-align: center;
 
-	width: 90%;
-	height: 120px;
-	padding-top: 5%;
-	margin: 10px;
+    width: 90%;
+    height: 300px;
+    padding-top: 5%;
+    margin: 10px;
+    font-size: 20pt;
+    font-family: 'Courier New';
+}
+
+#contenido aside #publi video{
+
+    width: 80%;
 }
 
 #contenido main{
